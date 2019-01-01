@@ -1,0 +1,25 @@
+body
+{
+	width:200px;
+}
+
+#main-banner
+{
+	padding:30px 10px;
+	box-sizing:border-box;
+	width:100%;
+}
+
+#search
+{
+	width:100%;
+	margin:0 0 10px 0;
+	padding:0 0 0 5px;
+	line-height:24px;
+}
+
+#search-button
+{
+	padding:3px 0;
+	width:100%;
+}
