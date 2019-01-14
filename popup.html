@@ -1,13 +1,15 @@
 <html>
 	<head>
-		<title>Stack Search</title>
+		<title>Overflow Search</title>
+		<script src="jquery.js"></script>
+		<script src="script.js"></script>
+
 		<link rel="stylesheet" type="text/css" href="style.css" />
 	</head>
 	<body>
 		<img id="main-banner" src="so-logo.png" />
-		<form method="get" action="https://stackoverflow.com/search" target="_blank" autocomplete="off">
-			<input id="search" type="text" name="q" placeholder="Search..." />
-			<input id="search-button" type="submit" value="Search" />
-		</form>
+		<input id="search" type="text" name="q" placeholder="Search..." autocomplete="off" />
+		<button id="search-button">Search</button>
+		<div id="answer-container"></div>
 	</body>
 </html>

@@ -1,11 +1,14 @@
 {
 	"manifest_version": 2,
-	"name": "Stack Search",
-	"description": "This extension lets users quickly search programming related questions on the stackexchange network.",
+	"name": "Search Exchange",
+	"description": "This extension lets users quickly search questions on stack overflow without navigating off the current page.",
 	"version": "1.0",
+	"permissions": [
+		"storage"
+	],
 	"browser_action": {
 		"default_icon": "icon.png",
 		"default_popup": "popup.html",
-		"default_title": "Stack Search"
+		"default_title": "Search Exchange"
 	}
 }
